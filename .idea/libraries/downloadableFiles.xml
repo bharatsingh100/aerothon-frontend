@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="downloadableFiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/downloadableFiles/._zip_5MB.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/downloadableFiles/._zip_2MB.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/downloadableFiles/._zip_9MB.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
