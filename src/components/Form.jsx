@@ -67,7 +67,7 @@ export default class Form extends Component {
         });
     }
   render() {
-      const { frontEnd,backEnd,result } = this.state;
+      const { frontEnd,backEnd } = this.state;
       const api = BASE_URL+"?frontend=" + frontEnd + "&backend=" + backEnd;
     return (
       <div>
@@ -81,19 +81,19 @@ export default class Form extends Component {
             <input
                         type="radio"
                         name="frontend"
-                        value={'React'}
+                        value={'react'}
                         onChange={this.onFrontEnd}
                     /> React<br />
                 <input
                         type="radio"
                         name="frontend"
-                        value={'Angular'}
+                        value={'angular'}
                         onChange={this.onFrontEnd}
                     /> Angular<br />
                 <input
                         type="radio"
                         name="frontend"
-                        value={'StencilJs'}
+                        value={'stencil'}
                         onChange={this.onFrontEnd}
                     /> StencilJs<br />
             </div>
@@ -106,21 +106,21 @@ export default class Form extends Component {
             <input
                         type="radio"
                         name="backend"
-                        value={'Java'}
+                        value={'spring-boot'}
                         
                         onChange={this.onBackEnd}
-                    /> Java<br />
+                    /> Spring Boot<br />
                 <input
                         type="radio"
                         name="backend"
-                        value={'.net'}
+                        value={'flask'}
                         
                         onChange={this.onBackEnd}
-                    /> .Net<br />
+                    /> Flask<br />
                 <input
                         type="radio"
                         name="backend"
-                        value={'nodejs'}
+                        value={'node'}
                         
                         onChange={this.onBackEnd}
                     /> Nodejs<br />
